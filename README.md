@@ -1,71 +1,106 @@
-🔥 Flame Game — Flutter
-A 2D game built with Flutter and the Flame game engine.
+# 🐦 Flutter Bird Fly — Flappy Bird Clone
 
-📱 Screenshots
+A Flappy Bird clone built with **Flutter** & **Flame Engine**
 
-(Add your game screenshots here)
+---
 
+## 📱 Gameplay Demo
 
-🎮 About
-This is a 2D game developed using Flutter and Flame Engine. Flame provides a simple yet powerful game loop, components, collision detection, and audio support — all on top of Flutter.
+> 🎥 Upload your video to GitHub Issues first, then replace the link below
+> 
+> [![Gameplay Demo](https://img.shields.io/badge/Watch-Gameplay%20Demo-red)](https://github.com/chandakumari5487/flame-flappy-bird/issues)
 
-✨ Features
+---
 
-🕹️ Smooth 2D game loop
-💥 Collision detection
-🎵 Sound effects & background music
-📱 Supports Android & iOS
-🏆 Score tracking system
+## 📸 Screenshots
 
+> *(Add your game screenshots here)*
 
-🛠️ Tech Stack
-TechnologyUsageFlutterUI & App frameworkFlame2D Game EngineDartProgramming Languageflame_audioSound effectsshared_preferencesSave high score
+---
 
-📦 Dependencies
-yamldependencies:
+## 🎮 About
+
+A fun Flappy Bird clone developed using **Flutter** and **Flame Engine**. Flame provides a simple yet powerful game loop, components, collision detection — all on top of Flutter.
+
+---
+
+## ✨ Features
+
+- 🐦 Flappy Bird style gameplay
+- 🕹️ Smooth 2D game loop
+- 💥 Collision detection
+- 📱 Supports Android & iOS
+- 🏆 Score tracking system
+
+---
+
+## 🛠️ Tech Stack
+
+| Technology | Usage |
+|---|---|
+| Flutter | UI & App framework |
+| Flame | 2D Game Engine |
+| Dart | Programming Language |
+| shared_preferences | Save high score |
+
+---
+
+## 📦 Dependencies
+
+```yaml
+dependencies:
   flutter:
     sdk: flutter
   flame: ^1.18.0
-  flame_audio: ^2.1.1
   shared_preferences: ^2.2.2
+```
 
-🚀 Getting Started
-Prerequisites
+---
 
-Flutter SDK >=3.0.0
-Dart SDK >=3.0.0
-Android Studio / VS Code
+## 🚀 Getting Started
 
-Installation
-bash# 1. Clone the repo
-git clone https://github.com/your-username/your-game-name.git
+### Prerequisites
+- Flutter SDK `>=3.0.0`
+- Dart SDK `>=3.0.0`
+- Android Studio / VS Code
+
+### Installation
+
+```bash
+# 1. Clone the repo
+git clone https://github.com/chandakumari5487/flame-flappy-bird.git
 
 # 2. Go to project folder
-cd your-game-name
+cd flame-flappy-bird
 
 # 3. Install dependencies
 flutter pub get
 
 # 4. Run the app
 flutter run
+```
 
+---
 
+## 🎯 How to Play
 
-🎯 How to Play
+1. Tap to **start** the game
+2. **Tap screen** to make the bird fly
+3. **Avoid pipes** — don't touch them!
+4. Try to beat your **high score!** 🏆
 
-Tap to start the game
-Use on-screen controls to move the player
-Avoid obstacles and enemies
-Collect points to increase your score
-Try to beat your high score!
+---
 
+## 👩‍💻 Developer
 
-📲 Download
-<video controls src="20260429-0751-05.1824206.mp4" title="Gameplay Demo"></video>
+**Chanda Kumari**  
+Flutter Developer · Android · Web · Desktop
 
-👩‍💻 Developer
-Chanda Kumari
-Flutter Developer · Android · Web · Desktop;
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/chandakumari2012)
+[![GitHub](https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white)](https://github.com/chandakumari5487)
 
-📄 License
+---
+
+## 📄 License
+
 MIT License — feel free to use and modify
